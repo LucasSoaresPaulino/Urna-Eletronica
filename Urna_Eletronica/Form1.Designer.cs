@@ -50,6 +50,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -287,11 +288,21 @@
             this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(331, 269);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(32, 15);
+            this.label6.TabIndex = 42;
+            this.label6.Text = "Urna";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 579);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button5);
@@ -345,5 +356,6 @@
         private Button button5;
         private Button button6;
         private Button button10;
+        private Label label6;
     }
 }
